@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt'br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>
+        Somente com o html5 é possível fazer com que sua imagem carregue de acordo com o tamanho da sua tela, seja de um telefone móvil, um tablet ou um computador. Quando a janela está bem pequena, mostre uma imagem mais estreita, e quando a janela aumenta de tamanho a imagem se torna também maior, assim obtendo uma melhor experiência para o usuário.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="paisagem-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="paisagem-m.png" type="image/png"> 
+
+        <img src="paisagem-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
